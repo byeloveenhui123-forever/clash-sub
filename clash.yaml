@@ -1,557 +1,11 @@
-# auto-generated 2026-11-12 08:47:15 UTC
+# auto-generated 2026-11-13 08:41:15 UTC
 # nodes: 200 (non-vmess, mihomo latency-tested)
 mixed-port: 7890
 allow-lan: false
 mode: rule
 log-level: warning
 proxies:
-- name: 001 | 18ms | n01663
-  server: 38.128.66.32
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 002 | 34ms | n01677
-  server: 216.106.178.169
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 003 | 56ms | n01582
-  type: http
-  server: 12.202.180.118
-  port: 443
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 004 | 62ms | n01659
-  server: 149.40.57.133
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 005 | 63ms | n01642
-  server: 149.40.57.138
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 006 | 63ms | n01681
-  server: 149.40.57.134
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 007 | 69ms | n01379
-  password: None
-  port: 443
-  server: 68.235.56.59
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 008 | 70ms | n01655
-  server: 38.91.100.39
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 009 | 71ms | n01357
-  password: None
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 010 | 73ms | n01656
-  server: 167.88.62.203
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 011 | 74ms | n01649
-  server: 156.146.38.170
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 012 | 75ms | n01651
-  server: 156.146.38.169
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 013 | 76ms | n01609
-  server: 193.151.163.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 014 | 78ms | n01665
-  server: 156.146.38.168
-  port: 443
-  type: ss
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- cipher: aes-256-cfb
-  name: 015 | 80ms | n01465
-  password: amazonskr05
-  port: 443
-  server: 3.16.78.3
-  type: ss
-  udp: true
-- name: 016 | 81ms | n01556
-  server: 18.117.92.138
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: 017 | 87ms | n01355
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 018 | 89ms | n01716
-  server: 198.98.53.130
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: eDfN7SODQceIOmIAbtJJtK
-  udp: true
-- name: 019 | 90ms | n01672
-  server: 138.197.89.234
-  port: 28960
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: DZRy4Q3QH0jUGfKFl2jDCZ
-  udp: true
-- name: 020 | 91ms | n01617
-  server: 35.182.245.215
-  port: 443
-  type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
-  udp: true
-- name: 021 | 96ms | n01490
-  server: 15.235.57.6
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: kxhnt5jtykd328cg
-  udp: true
-- name: 022 | 97ms | n01608
-  server: 45.86.51.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 023 | 97ms | n01611
-  server: 185.230.230.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 024 | 98ms | n01675
-  server: 172.111.38.72
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 025 | 106ms | n01644
-  server: 137.184.174.93
-  port: 8080
-  type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
-  udp: true
-- name: 026 | 107ms | n01371
-  password: None
-  port: 443
-  server: 198.44.135.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 027 | 111ms | n01407
-  port: 443
-  server: 149.88.21.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- ip: 172.16.0.2/32
-  keepalive: '5'
-  mtu: 1280
-  name: 028 | 111ms | n01420
-  persistent-keepalive: '5'
-  port: 4500
-  private-key: QB+xyMCK7DvH59ditStC1knU3bhSVJfbzpgvbSj/plI=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 111
-  - 85
-  - 82
-  server: 162.159.192.5
-  type: wireguard
-  udp: true
-  wnoise: quic
-  wnoisecount: '5'
-  wnoisedelay: '5'
-  wpayloadsize: 40-90
-- name: 029 | 113ms | n01577
-  type: http
-  server: 198.44.138.27
-  port: 9443
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 030 | 113ms | n01607
-  server: 193.151.160.9
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 031 | 118ms | n01654
-  server: 162.251.62.31
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 032 | 119ms | n01610
-  server: 193.151.160.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 033 | 120ms | n00006
-  type: vless
-  network: ws
-  server: 172.67.74.177
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  servername: fs.qicai99.com
-  tls: true
-  ws-opts:
-    headers:
-      Host: fs.qicai99.com
-    path: /fp=chrome
-  udp: true
-- name: 034 | 122ms | n01383
-  password: None
-  port: 9443
-  server: 149.88.98.81
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 035 | 124ms | n01652
-  server: 38.91.107.188
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- cipher: aes-256-gcm
-  name: 036 | 130ms | n01263
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 51.222.155.32
-  type: ss
-  udp: true
-- ip: 172.16.0.2/32
-  ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
-  mtu: 1280
-  name: 037 | 130ms | n01415
-  port: 955
-  private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 0
-  - 0
-  - 0
-  server: 8.6.112.100
-  type: wireguard
-  udp: true
-- ip: 172.16.0.2/32
-  mtu: 1380
-  name: 038 | 131ms | n01416
-  port: 3581
-  presharedkey: ''
-  private-key: 2FaqTm+aXdVK00dvbeuMW/t741BWYu9lNOOVtMI4R3Y=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 80
-  - 103
-  - 64
-  server: 162.159.192.11
-  type: wireguard
-  udp: true
-- name: 039 | 139ms | n01361
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 040 | 141ms | n01430
-  password: 'null'
-  port: 443
-  server: 38.247.141.135
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-  udp: true
-- name: 041 | 148ms | n01673
-  server: 23.150.152.38
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 042 | 153ms | n01378
-  port: 443
-  server: 192.227.176.234
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 043 | 154ms | n01613
-  server: 169.197.140.218
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  skip-cert-verify: false
-  udp: true
-- name: 044 | 157ms | n01612
-  server: 137.184.89.151
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- ip: 172.16.0.2/32
-  keepalive: '5'
-  mtu: 1280
-  name: 045 | 158ms | n01417
-  persistent-keepalive: '5'
-  port: 500
-  private-key: mHj04J164X9hgzAVq4BlB0hc/SK3QPbgl7JF+/anXU0=
-  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-  reserved:
-  - 99
-  - 166
-  - 252
-  server: 162.159.192.6
-  type: wireguard
-  udp: true
-  wnoise: quic
-  wnoisecount: '5'
-  wnoisedelay: '5'
-  wpayloadsize: 40-90
-- name: 046 | 161ms | n01678
-  server: 95.215.201.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 047 | 163ms | n01660
-  server: 169.197.142.68
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- cipher: aes-256-gcm
-  name: 048 | 180ms | n01296
-  password: BWyPPTusFKhGgzKh
-  port: 8388
-  server: 64.177.90.30
-  type: ss
-  udp: true
-- name: 049 | 190ms | n01325
-  network: ws
-  password: '123456'
-  port: 2096
-  server: 104.18.35.86
-  skip-cert-verify: true
-  sni: 321dfbc6.uir-9i6.pages.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 321dfbc6.uir-9i6.pages.dev
-    path: /
-  udp: true
-- name: 050 | 203ms | n00921
-  type: vless
-  network: tcp
-  server: 85.155.179.206
-  port: 443
-  uuid: 86a83d11-d751-4b60-aa4e-1dca5cff7028
-  servername: us3.shtil.io
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-- name: 051 | 210ms | n01633
-  server: 167.88.61.175
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: blog.browseseniorrolesandenhanceyourcareertoday.com
-  skip-cert-verify: false
-  udp: true
-- name: 052 | 212ms | n01625
-  server: 167.88.61.52
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
-  skip-cert-verify: false
-  udp: true
-- type: trojan
-  name: 053 | 220ms | n01180
-  server: 23.106.44.14
-  port: 443
-  password: 600421cf-11d7-429f-a65b-c30397f1bc03
-  tls: true
-  servername: sj6.freeguard.org
-  sni: sj6.freeguard.org
-  skip-cert-verify: true
-  udp: true
-- name: 054 | 222ms | n01658
-  server: 172.111.36.123
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 055 | 222ms | n01666
-  server: 38.22.17.219
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 056 | 222ms | n01668
-  server: 38.22.17.129
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 057 | 223ms | n01662
-  server: 38.121.43.225
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 058 | 223ms | n01676
-  server: 38.121.43.18
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 059 | 226ms | n01669
-  server: 66.163.112.121
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.unlockyourfuturefindyourperfectcareer.com
-  skip-cert-verify: false
-  udp: true
-- name: 060 | 227ms | n01664
-  server: 167.88.63.99
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 061 | 231ms | n01657
-  server: 38.121.43.231
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 062 | 238ms | n01661
-  server: 66.163.112.13
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: blog.unlockyourfuturefindyourperfectcareer.com
-  skip-cert-verify: false
-  udp: true
-- name: 063 | 246ms | n01412
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: 064 | 246ms | n01413
-  password: 'null'
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  sni: 138.199.35.219
-  tls: true
-  type: http
-  username: 'null'
-  udp: true
-- name: 065 | 247ms | n01358
-  password: None
-  port: 9443
-  server: 23.169.224.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 066 | 247ms | n01360
-  password: None
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-  udp: true
-- name: 067 | 247ms | n01426
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 068 | 247ms | n01647
+- name: 001 | 55ms | n01660
   server: resources.findlocaljobnetworkandbuildcommunityconnections.com
   port: 443
   type: trojan
@@ -559,40 +13,494 @@ proxies:
   sni: resources.findlocaljobnetworkandbuildcommunityconnections.com
   skip-cert-verify: false
   udp: true
-- name: 069 | 252ms | n01401
-  port: 9443
-  server: 38.95.111.226
+- name: 002 | 69ms | n01400
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 003 | 87ms | n01687
+  server: 23.150.152.38
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 004 | 88ms | n01632
+  server: 137.184.89.151
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+  mtu: 1280
+  name: 005 | 108ms | n01459
+  port: 1180
+  private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  server: 8.6.112.246
+  type: wireguard
+  udp: true
+- name: 006 | 115ms | n01671
+  server: 169.197.142.68
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 007 | 117ms | n01461
+  persistent-keepalive: '5'
+  port: 500
+  private-key: 6MOHNyxgcVe2ohk/L50VCvNoAD1dKsVQ+DO/r0GLgk8=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 228
+  - 192
+  - 229
+  server: 162.159.192.4
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- name: 008 | 118ms | n01589
+  type: vless
+  server: www.hcaptcha.com
+  port: 80
+  uuid: 42c5efc2-9479-49c3-8f4a-88855427cb0c
+  network: ws
+  ws-opts:
+    path: /LOGZPldfDGZEtuMh
+    headers:
+      Host: worker3.cipek2755.workers.dev
+  udp: true
+- name: 009 | 125ms | n00973
+  type: vless
+  network: ws
+  server: 172.67.247.113
+  port: 443
+  uuid: 9921b176-e013-4b66-adc3-a6bc33c3ab7d
+  servername: cdn-edge-334a28-gw.build-svc-987d46.workers.dev
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: cdn-edge-334a28-gw.build-svc-987d46.workers.dev
+    path: /8a3c663fe6311479?ed=2560
+- name: 010 | 129ms | n01609
+  type: vless
+  server: 104.16.80.1
+  port: 443
+  uuid: 462f23ba-3286-4601-813d-878bf26b4fcb
+  tls: true
+  servername: nmdx.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=proxyip.oracle.cmliussss.net
+    headers:
+      Host: nmdx.ccwu.cc
+  udp: true
+- name: 011 | 135ms | n01691
+  server: 95.215.201.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 012 | 149ms | n01464
+  persistent-keepalive: '5'
+  port: 4500
+  private-key: 2DpN1E4RZmiBm7x2vlr6vFcIkjixfcTYZtGMlKYPZEM=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 125
+  - 168
+  - 120
+  server: 162.159.192.7
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- name: 013 | 149ms | n01634
+  server: 167.88.61.52
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.browseseniorrolesandenhanceyourcareertoday.com
+  skip-cert-verify: false
+  udp: true
+- name: 014 | 150ms | n01434
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 015 | 150ms | n01468
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 016 | 151ms | n01640
+  server: 66.163.112.121
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: www.unlockyourfuturefindyourperfectcareer.com
+  skip-cert-verify: false
+  udp: true
+- name: 017 | 152ms | n01450
+  port: 9002
+  server: 138.199.35.207
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 070 | 254ms | n01405
+- name: 018 | 152ms | n01454
+  password: 'null'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  sub_tag: P002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: 019 | 152ms | n01666
+  server: 167.88.61.175
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.browseseniorrolesandenhanceyourcareertoday.com
+  skip-cert-verify: false
+  udp: true
+- name: 020 | 153ms | n01430
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 021 | 154ms | n01439
+  password: 'null'
   port: 9002
   server: 138.199.35.199
   skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+  x-toolall-mihomo: true
+- name: 022 | 155ms | n01453
+  password: 'null'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+  udp: true
+- name: 023 | 161ms | n01455
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  sub_tag: P002-260618
   tls: true
   type: http
   udp: true
   x-toolall-mihomo: true
-- name: 071 | 256ms | n01363
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+  mtu: 1280
+  name: 024 | 173ms | n01456
+  port: 8742
+  private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  server: 8.6.112.207
+  type: wireguard
   udp: true
-- name: 072 | 259ms | n01353
-  password: None
+- name: 025 | 173ms | n01675
+  server: 167.88.62.203
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 026 | 174ms | n01635
+  server: 156.146.38.170
   port: 443
-  server: 167.88.60.242
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 027 | 174ms | n01637
+  server: 156.146.38.167
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 028 | 175ms | n01661
+  server: 156.146.38.168
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 029 | 175ms | n01679
+  server: 66.163.112.13
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.unlockyourfuturefindyourperfectcareer.com
+  skip-cert-verify: false
+  udp: true
+- name: 030 | 177ms | n01670
+  server: 156.146.38.169
+  port: 443
+  type: ss
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+  mtu: 1280
+  name: 031 | 186ms | n01458
+  port: 928
+  private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  server: 8.6.112.23
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 032 | 192ms | n01460
+  persistent-keepalive: '5'
+  port: 500
+  private-key: KAVFtrqtH6RDA0JBlZ4rISv5rDMaywO1btSJIxi+vn8=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 61
+  - 7
+  - 252
+  server: 162.159.192.7
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- name: 033 | 195ms | n01682
+  server: 38.121.43.231
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 034 | 196ms | n01690
+  server: 38.121.43.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 035 | 197ms | n01681
+  server: 172.111.36.123
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 036 | 197ms | n01684
+  server: 38.121.43.225
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 037 | 205ms | n01673
+  server: 38.128.66.32
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 038 | 210ms | n01672
+  server: 149.40.57.138
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 039 | 210ms | n01677
+  server: 149.40.57.133
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 040 | 210ms | n01683
+  server: 38.22.17.219
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 041 | 210ms | n01685
+  server: 38.22.17.129
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 042 | 210ms | n01697
+  server: 149.40.57.134
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 043 | 215ms | n01680
+  server: 167.88.63.99
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 044 | 215ms | n01689
+  server: 38.91.100.39
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 045 | 230ms | n01465
+  persistent-keepalive: '5'
+  port: 4500
+  private-key: QN9e//MZcXBdaz7vDo7hX6tY5xh2yFzlActftLGlA10=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 255
+  - 89
+  - 117
+  server: 162.159.192.1
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- ip: 172.16.0.2/32
+  ipv6: 2606:4700:110:8e4e:939b:b987:39aa:c46c/128
+  mtu: 1280
+  name: 046 | 231ms | n01457
+  port: 4198
+  private-key: OEysS/3kryZt7O/RobQFlmPatDWuUl9bwef0IoMX/Uo=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 0
+  - 0
+  - 0
+  server: 8.6.112.200
+  type: wireguard
+  udp: true
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 047 | 233ms | n01462
+  persistent-keepalive: '5'
+  port: 500
+  private-key: +AYnqJYinZIJ6yZwIjmirctmPqzfctf6H2fTqywa/XM=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 39
+  - 4
+  - 107
+  server: 162.159.192.2
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '5'
+  wnoisedelay: '5'
+  wpayloadsize: 40-90
+- name: 048 | 235ms | n01692
+  server: 172.111.38.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- ip: 172.16.0.2/32
+  keepalive: '5'
+  mtu: 1280
+  name: 049 | 246ms | n01463
+  persistent-keepalive: '5'
+  port: 987
+  presharedkey: ''
+  private-key: GJTd46xB/fjfi6vyJmpxUiNrNdjZTW0Qhi7b0PkER1Y=
+  public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  reserved:
+  - 175
+  - 93
+  - 41
+  server: 188.114.97.6
+  type: wireguard
+  udp: true
+  wnoise: quic
+  wnoisecount: '15'
+  wnoisedelay: 1-2
+  wpayloadsize: 5-10
+- name: 050 | 249ms | n01427
+  port: 443
+  server: 38.247.141.135
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 073 | 272ms | n01329
-  network: tcp
+- name: 051 | 253ms | n01379
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   port: 443
   server: 216.152.147.79
@@ -600,7 +508,139 @@ proxies:
   sni: blog.connectingpeoplewithgreatjobs.com
   type: trojan
   udp: true
-- name: 074 | 276ms | n00433
+- name: 052 | 254ms | n01377
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  port: 443
+  server: 216.152.147.201
+  sni: resources.connectingpeoplewithgreatjobs.com
+  type: trojan
+  udp: true
+- name: 053 | 255ms | n01715
+  server: 15.235.57.6
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: kxhnt5jtykd328cg
+  udp: true
+- name: 054 | 256ms | n01627
+  server: 193.151.160.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 055 | 256ms | n01629
+  server: 193.151.163.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 056 | 257ms | n01678
+  server: 38.91.107.188
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 057 | 258ms | n01625
+  server: 193.151.160.9
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 058 | 261ms | n01436
+  port: 443
+  server: 12.221.146.147
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- name: 059 | 264ms | n01730
+  server: 138.197.89.234
+  port: 28960
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: DZRy4Q3QH0jUGfKFl2jDCZ
+  udp: true
+- name: 060 | 269ms | n01628
+  server: 45.86.51.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 061 | 269ms | n01659
+  server: 84.20.27.183
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 062 | 270ms | n01669
+  server: 162.251.62.31
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 063 | 273ms | n01626
+  server: 185.230.230.18
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- type: vless
+  name: 064 | 281ms | n01588
+  server: 169.40.42.229
+  port: 443
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  flow: xtls-rprx-vision
+  udp: true
+  tls: true
+  servername: yahoo.com
+  sni: yahoo.com
+  skip-cert-verify: false
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+- name: 065 | 294ms | n01539
+  server: 192.177.26.55
+  port: 443
+  type: vless
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  tls: true
+  flow: xtls-rprx-vision
+  reality-opts:
+    public-key: cC6kqzQ1mdCXyPey8xRXS7TQ1S4kF3nJW-h1ItJ4SH8
+    short-id: bdaddda4cbc8c7bf
+  servername: repo-16.topp-con.xyz
+  client-fingerprint: chrome
+  network: tcp
+  udp: true
+- name: 066 | 317ms | n00028
+  type: vless
+  network: tcp
+  server: 152.69.195.67
+  port: 47878
+  uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
+  servername: 152.69.195.67
+  tls: false
+  encryption: none
+  udp: true
+- name: 067 | 321ms | n01473
+  port: 9443
+  server: 198.44.157.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 068 | 325ms | n00417
   type: vless
   network: ws
   server: 38.107.236.166
@@ -615,118 +655,120 @@ proxies:
     headers:
       Host: 3h-unitedstates3.09vpn.com
     path: /vless/
-- name: 075 | 278ms | n01557
-  server: 156.229.167.109
-  port: 8443
-  type: vless
-  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
+- name: 069 | 328ms | n01703
+  server: 216.106.178.169
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 070 | 335ms | n01403
+  password: None
+  port: 9443
+  server: 149.88.98.81
+  skip-cert-verify: true
   tls: true
-  reality-opts:
-    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
-    short-id: 4ad2e4e660550e43
-  servername: github.githubassets.com
-  client-fingerprint: chrome
-  network: tcp
+  type: http
   udp: true
-- name: 076 | 297ms | n01331
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+- cipher: chacha20-ietf
+  name: 071 | 365ms | n01579
+  obfs: tls1.2_ticket_auth
+  obfsparam: ''
+  password: dongtaiwang.com
+  port: 33336
+  protocol: auth_chain_a
+  protocolparam: ''
+  server: ssr2.762988.xyz
+  type: ssr
+  udp: true
+- name: 072 | 372ms | n01630
+  server: 169.197.140.218
   port: 443
-  server: 216.152.147.93
-  sni: connectingpeoplewithgreatjobs.com
   type: trojan
-  udp: true
-- name: 077 | 303ms | n01710
-  server: 5.188.181.201
-  port: 9040
-  type: ss
-  cipher: aes-256-cfb
-  password: p9z5BVADH2YFs3MN
-  udp: true
-- name: 078 | 305ms | n01707
-  server: 5.188.181.201
-  port: 9054
-  type: ss
-  cipher: aes-256-cfb
-  password: VcFuyXvND2yQWSFY
-  udp: true
-- name: 079 | 307ms | n01694
-  server: 5.188.181.201
-  port: 9019
-  type: ss
-  cipher: aes-256-cfb
-  password: GA9KzeEgvfxNrgmM
-  udp: true
-- name: 080 | 309ms | n01711
-  server: 5.188.181.201
-  port: 9011
-  type: ss
-  cipher: aes-256-cfb
-  password: M3t2ZEQcMGRWBjRa
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 081 | 312ms | n01297
-  password: DYVqFDnYoMquRQunXC1xd2FyuDhd7JWs5jtf2eb7VkKLzXgZv8pt8gY1e91TT71V762zRX7MWW4HmjavanYdUF9bij8gG8AP
-  port: 47195
-  server: 104.222.183.180
-  type: ss
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+  skip-cert-verify: false
   udp: true
 - cipher: aes-256-gcm
-  name: 082 | 316ms | n01272
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 193.108.119.2
+  name: 073 | 377ms | n01310
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 51.222.155.113
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 083 | 318ms | n01287
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 38.114.120.221
-  type: ss
+- name: 074 | 387ms | n01412
+  port: 443
+  server: 206.223.183.21
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
   udp: true
-- cipher: aes-256-gcm
-  name: 084 | 320ms | n01286
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 142.202.51.22
+  x-toolall-mihomo: true
+- name: 075 | 402ms | n01717
+  server: 137.184.174.93
+  port: 8080
   type: ss
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
   udp: true
-- name: 085 | 320ms | n01704
-  server: 5.188.181.201
-  port: 9042
-  type: ss
-  cipher: aes-256-cfb
-  password: S7KwUu7yBy58S3Ga
-  udp: true
-- name: 086 | 320ms | n01708
-  server: 5.188.181.201
-  port: 9014
-  type: ss
-  cipher: aes-256-cfb
-  password: KnJGad3FqTvjqbaX
-  udp: true
-- name: 087 | 323ms | n01717
+- name: 076 | 415ms | n01695
   server: 15.237.53.254
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 088 | 325ms | n01615
-  server: 151.241.19.36
-  port: 19999
+- cipher: 2022-blake3-aes-128-gcm
+  name: 077 | 428ms | n01368
+  password: b7I6g7l7fJhBaMInJ+zkzw==
+  port: 14514
+  server: amasoid.ddns.net
   type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 089 | 327ms | n01635
-  server: 82.38.31.208
+- cipher: aes-256-gcm
+  name: 078 | 430ms | n01319
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 23.157.88.43
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 079 | 433ms | n01318
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.119.3
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 080 | 435ms | n01320
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.108.119.2
+  type: ss
+  udp: true
+- name: 081 | 441ms | n01644
+  server: 193.29.139.168
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: QCXDxuDlTTMD7jtgHUjIoj
   udp: true
-- name: 090 | 327ms | n01682
+- cipher: aes-256-gcm
+  name: 082 | 445ms | n01336
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.114.120.221
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 083 | 445ms | n01337
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.176.206.9
+  type: ss
+  udp: true
+- name: 084 | 446ms | n01693
   server: 109.201.152.181
   port: 443
   type: ss
@@ -734,224 +776,83 @@ proxies:
   password: shadowsocks
   udp: true
 - cipher: aes-256-gcm
-  name: 091 | 329ms | n01290
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 94.156.250.148
-  type: ss
-  udp: true
-- name: 092 | 329ms | n01699
-  server: 5.188.181.201
-  port: 9001
-  type: ss
-  cipher: aes-256-cfb
-  password: UkXRsXvR6buDMG2Y
-  udp: true
-- cipher: aes-256-gcm
-  name: 093 | 332ms | n01270
+  name: 085 | 447ms | n01335
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 193.108.119.3
+  server: 142.202.51.22
   type: ss
   udp: true
-- cipher: aes-256-gcm
-  name: 094 | 332ms | n01283
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 167.17.64.22
+- name: 086 | 456ms | n01546
+  server: 18.171.57.116
+  port: 443
   type: ss
+  cipher: 2022-blake3-chacha20-poly1305
+  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
   udp: true
-- cipher: aes-256-gcm
-  name: 095 | 333ms | n01271
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 23.157.88.43
-  type: ss
-  udp: true
-- name: 096 | 333ms | n01623
-  server: 82.38.31.189
+- name: 087 | 457ms | n01653
+  server: 193.29.139.147
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 097 | 334ms | n01621
-  server: 82.38.31.187
+- cipher: aes-256-gcm
+  name: 088 | 460ms | n01334
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 198.244.202.215
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 089 | 465ms | n01349
+  password: DYVqFDnYoMquRQunXC1xd2FyuDhd7JWs5jtf2eb7VkKLzXgZv8pt8gY1e91TT71V762zRX7MWW4HmjavanYdUF9bij8gG8AP
+  port: 47195
+  server: 104.222.183.180
+  type: ss
+  udp: true
+- name: 090 | 471ms | n01469
+  port: 9443
+  server: 198.44.142.27
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 091 | 488ms | n01557
+  server: 16.171.159.75
   port: 8080
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  cipher: 2022-blake3-aes-256-gcm
+  password: SWePBmNSadMUzbm7GigoCTrCXr1vG/zUfYbBDaxk/VU=:jXzFNqqClbUWdzc1f4DSolu9VfjohvSJ+vP/Sj5eK0U=
   udp: true
-- name: 098 | 334ms | n01689
-  server: 178.83.185.156
-  port: 8080
+- cipher: chacha20-ietf-poly1305
+  name: 092 | 491ms | n01304
+  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
+  port: 8388
+  server: 152.53.1.57
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 099 | 334ms | n01714
-  server: 82.38.31.176
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 100 | 335ms | n01690
-  server: 82.38.31.48
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 101 | 335ms | n01701
-  server: 51.44.170.122
+- name: 093 | 495ms | n01736
+  server: 16.60.30.137
   port: 443
   type: ss
   cipher: aes-256-cfb
   password: amazonskr05
   udp: true
-- name: 102 | 337ms | n01481
-  port: 8443
-  server: 44.248.167.117
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 103 | 337ms | n01698
-  server: 82.38.31.218
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 104 | 338ms | n01692
-  server: 82.38.31.162
-  port: 443
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 105 | 339ms | n01505
-  server: 54.37.240.40
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 8nrpt2il04ptci2j
-  udp: true
-- name: 106 | 339ms | n01614
-  server: 151.241.19.29
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 107 | 340ms | n01638
-  server: 82.38.31.205
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 108 | 341ms | n01624
-  server: 82.38.31.202
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 109 | 341ms | n01626
-  server: 82.38.31.190
+- name: 094 | 506ms | n01674
+  server: 82.38.31.192
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
 - cipher: aes-256-gcm
-  name: 110 | 342ms | n01282
+  name: 095 | 509ms | n01323
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 167.17.64.175
+  server: 79.127.139.242
   type: ss
   udp: true
-- type: vless
-  name: 111 | 342ms | n01570
-  server: 169.40.42.229
-  port: 443
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  flow: xtls-rprx-vision
-  udp: true
-  tls: true
-  servername: yahoo.com
-  sni: yahoo.com
-  skip-cert-verify: false
-  client-fingerprint: ios
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-- name: 112 | 342ms | n01650
-  server: 82.38.31.207
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 113 | 343ms | n01705
-  server: 5.188.181.201
-  port: 9031
-  type: ss
-  cipher: aes-256-cfb
-  password: BwcAUZk8hUFAkDGN
-  udp: true
-- cipher: aes-256-gcm
-  name: 114 | 344ms | n01278
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 23.162.152.22
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 115 | 344ms | n01281
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 172.99.189.142
-  type: ss
-  udp: true
-- name: 116 | 344ms | n01636
-  server: 82.38.31.191
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 117 | 344ms | n01643
-  server: 82.38.31.210
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 118 | 345ms | n01628
-  server: 82.38.31.193
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 119 | 345ms | n01687
-  server: 82.38.31.66
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- cipher: aes-256-gcm
-  name: 120 | 346ms | n01269
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 57.129.83.85
-  type: ss
-  udp: true
-- name: 121 | 346ms | n01619
+- name: 096 | 511ms | n01646
   server: 82.38.31.203
   port: 8080
   type: ss
@@ -959,334 +860,279 @@ proxies:
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
 - cipher: aes-256-gcm
-  name: 122 | 348ms | n01279
+  name: 097 | 513ms | n01360
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 38.109.228.110
+  server: 138.199.55.243
   type: ss
   udp: true
-- name: 123 | 348ms | n01653
-  server: 82.38.31.214
+- cipher: aes-128-gcm
+  name: 098 | 513ms | n01616
+  password: cac96c2692d85bc2dceec378cea6c83f
+  port: 10840
+  server: 108.181.71.165
+  type: ss
+  udp: true
+- name: 099 | 515ms | n01641
+  server: 82.38.31.202
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 124 | 349ms | n01631
-  server: 82.38.31.212
-  port: 8080
+- cipher: aes-256-gcm
+  name: 100 | 516ms | n01316
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 79.127.184.104
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 125 | 349ms | n01648
-  server: 82.38.31.186
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 126 | 349ms | n01684
-  server: 82.38.31.46
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 127 | 349ms | n01703
-  server: 82.38.31.219
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 128 | 350ms | n01616
+- name: 101 | 517ms | n01654
   server: 82.38.31.217
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 129 | 351ms | n01622
-  server: 193.29.139.168
-  port: 8080
+- cipher: aes-256-gcm
+  name: 102 | 518ms | n01314
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 23.166.88.127
   type: ss
-  cipher: chacha20-ietf-poly1305
-  password: QCXDxuDlTTMD7jtgHUjIoj
   udp: true
-- name: 130 | 353ms | n01683
-  server: 82.38.31.35
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 131 | 355ms | n01688
-  server: 82.38.31.61
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 132 | 355ms | n01709
-  server: 5.188.181.201
-  port: 9005
+- name: 103 | 519ms | n01696
+  server: 51.44.170.122
+  port: 443
   type: ss
   cipher: aes-256-cfb
-  password: ZET59LF6DvCC8KVt
+  password: amazonskr05
   udp: true
-- name: 133 | 356ms | n01632
-  server: 82.38.31.194
+- name: 104 | 521ms | n01471
+  port: 9443
+  server: 149.88.21.140
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 105 | 522ms | n01254
+  port: 49313
+  server: 159.195.207.238
+  tls: false
+  type: vless
+  uuid: 855c7aaa-e7d6-463e-971e-d36032744428
+  udp: true
+- cipher: aes-256-gcm
+  name: 106 | 523ms | n01315
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 186.190.215.251
+  type: ss
+  udp: true
+- name: 107 | 523ms | n01636
+  server: 82.38.31.212
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 134 | 356ms | n01685
-  server: 82.38.31.62
+- name: 108 | 523ms | n01734
+  server: 82.38.31.218
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 109 | 524ms | n01655
+  server: 82.38.31.191
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 110 | 524ms | n01656
+  server: 82.38.31.187
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 111 | 524ms | n01701
+  server: 82.38.31.46
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 135 | 357ms | n01640
-  server: 82.38.31.216
+- name: 112 | 524ms | n01702
+  server: 82.38.31.162
+  port: 443
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 113 | 527ms | n01686
+  server: 82.38.31.189
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 136 | 357ms | n01706
-  server: 5.188.181.201
-  port: 9041
-  type: ss
-  cipher: aes-256-cfb
-  password: U6qnYRhfyDmn8sgn
-  udp: true
-- name: 137 | 359ms | n01618
-  server: 82.38.31.192
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  udp: true
-- name: 138 | 360ms | n01686
+- name: 114 | 527ms | n01699
   server: 82.38.31.49
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 139 | 361ms | n01691
-  server: 82.38.31.47
+- name: 115 | 527ms | n01706
+  server: 82.38.31.61
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- cipher: aes-256-gcm
-  name: 140 | 363ms | n01266
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 23.166.88.127
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 141 | 364ms | n01280
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 167.17.64.27
-  type: ss
-  udp: true
-- name: 142 | 366ms | n01533
-  server: 51.83.61.102
-  port: 8080
-  type: ss
-  cipher: chacha20-ietf-poly1305
-  password: 29irqk0paakcx19v
-  udp: true
-- name: 143 | 366ms | n01695
-  server: 15.204.247.206
-  port: 4444
-  type: ss
-  cipher: aes-256-gcm
-  password: pKEW8JPByTVTLtM
-  udp: true
-- type: ss
-  name: 144 | 370ms | n01196
-  server: 202.50.253.54
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- cipher: aes-256-gcm
-  name: 145 | 370ms | n01268
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 79.127.184.104
-  type: ss
-  udp: true
-- type: ss
-  name: 146 | 371ms | n01194
-  server: 202.50.253.63
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 147 | 371ms | n01700
-  server: 5.188.181.201
-  port: 9029
-  type: ss
-  cipher: aes-256-cfb
-  password: dU3DSNS8wYPXzEKw
-  udp: true
-- cipher: aes-256-gcm
-  name: 148 | 376ms | n01267
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 186.190.215.251
-  type: ss
-  udp: true
-- type: ss
-  name: 149 | 377ms | n01200
-  server: 202.50.253.72
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- cipher: aes-256-gcm
-  name: 150 | 378ms | n01288
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 185.176.206.9
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 151 | 378ms | n01293
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 149.50.215.234
-  type: ss
-  udp: true
-- type: ss
-  name: 152 | 379ms | n01195
-  server: 202.50.253.18
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 153 | 379ms | n01629
-  server: 82.38.31.206
+- name: 116 | 528ms | n01639
+  server: 82.38.31.186
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- type: ss
-  name: 154 | 380ms | n01191
-  server: 202.50.253.27
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- type: ss
-  name: 155 | 382ms | n01199
-  server: 202.50.253.81
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 156 | 384ms | n01634
-  server: 185.164.175.81
-  port: 19999
+- name: 117 | 528ms | n01642
+  server: 82.38.31.193
+  port: 8080
   type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- type: ss
-  name: 157 | 385ms | n01197
-  server: 202.50.253.45
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- cipher: aes-256-gcm
-  name: 158 | 385ms | n01309
-  password: AxIYWtskJWIIaefW
-  port: 8388
-  server: 70.34.212.124
+- name: 118 | 529ms | n01650
+  server: 82.38.31.208
+  port: 8080
   type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- type: ss
-  name: 159 | 386ms | n01193
-  server: 202.50.253.90
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 160 | 393ms | n01630
+- name: 119 | 529ms | n01658
   server: 82.38.31.179
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
+- name: 120 | 531ms | n01676
+  server: 82.38.31.184
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 121 | 534ms | n01708
+  server: 82.38.31.48
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 122 | 535ms | n01731
+  server: 82.38.31.219
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
 - cipher: aes-256-gcm
-  name: 161 | 394ms | n01257
+  name: 123 | 537ms | n01305
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
   server: 82.110.60.9
   type: ss
   udp: true
 - cipher: aes-256-gcm
-  name: 162 | 395ms | n01308
+  name: 124 | 539ms | n01328
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   port: 19999
-  server: 138.199.55.243
+  server: 167.17.64.27
   type: ss
   udp: true
-- name: 163 | 403ms | n01240
-  network: ws
-  port: 80
-  server: 57.129.132.223
-  servername: '---@External_Net---@External_Net---@External_Net---@External_Net---@External_Net'
-  tls: false
-  type: vless
-  uuid: dbb78c94-9f87-4d7d-b945-2000b60352fd
-  ws-opts:
-    path: /vless/
+- name: 125 | 539ms | n01633
+  server: 151.241.19.36
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 164 | 403ms | n01256
-  password: AdawffFMHymlasRb0VOP3HFf7sTG5sJx
-  port: 8388
-  server: 152.53.1.57
+- name: 126 | 539ms | n01713
+  server: 82.38.31.176
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- cipher: aes-256-gcm
+  name: 127 | 543ms | n01327
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 38.109.228.110
   type: ss
   udp: true
-- name: 165 | 407ms | n01679
-  server: 16.60.30.137
-  port: 443
+- cipher: aes-256-gcm
+  name: 128 | 544ms | n01321
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 66.163.118.103
   type: ss
-  cipher: aes-256-cfb
-  password: amazonskr05
   udp: true
-- name: 166 | 409ms | n00710
+- cipher: aes-256-gcm
+  name: 129 | 545ms | n01341
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 149.50.215.234
+  type: ss
+  udp: true
+- name: 130 | 545ms | n01638
+  server: 82.38.31.214
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 131 | 546ms | n01668
+  server: 82.38.31.206
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 132 | 546ms | n01704
+  server: 82.38.31.66
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 133 | 547ms | n01657
+  server: 82.38.31.216
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 134 | 547ms | n01700
+  server: 82.38.31.47
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 135 | 547ms | n01707
+  server: 178.83.185.156
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- name: 136 | 548ms | n00706
   type: vless
   network: tcp
   server: 177.177.215.45
@@ -1299,29 +1145,14 @@ proxies:
   tfo: false
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-- name: 167 | 410ms | n01637
-  server: 193.29.139.147
+- name: 137 | 548ms | n01649
+  server: 82.38.31.194
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 168 | 418ms | n01674
-  server: 193.108.119.193
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.iloverussia2026.com
-  skip-cert-verify: false
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 169 | 421ms | n01307
-  password: 2e555e46dbc421452416834962fd014f
-  port: 8388
-  server: 62.182.193.228
-  type: ss
-  udp: true
-- name: 170 | 425ms | n00019
+- name: 138 | 550ms | n00020
   type: vless
   network: ws
   server: 138.124.70.41
@@ -1329,72 +1160,138 @@ proxies:
   uuid: 6cc745e3-4eb9-46c8-a4a1-85dee7b87edc
   servername: 138.124.70.41
   tls: false
+  encryption: none
   ws-opts:
     headers:
       Host: 138.124.70.41
     path: /vless
   udp: true
-- name: 171 | 425ms | n01667
-  server: 146.70.61.37
+- name: 139 | 551ms | n01665
+  server: 82.38.31.207
   port: 8080
   type: ss
-  cipher: rc4-md5
-  password: 14fFPrbezE3HDZzsMOr6
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 172 | 428ms | n01646
-  server: 193.108.119.15
+- cipher: aes-256-gcm
+  name: 140 | 552ms | n01322
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 167.17.71.167
+  type: ss
+  udp: true
+- name: 141 | 552ms | n01664
+  server: 82.38.31.205
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 142 | 553ms | n01732
+  server: 82.38.31.199
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- name: 143 | 555ms | n01449
   port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.iloverussia2026.com
-  skip-cert-verify: false
+  server: 192.227.176.234
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  x-toolall-mihomo: true
+- cipher: chacha20-ietf-poly1305
+  name: 144 | 556ms | n01332
+  password: 8nrpt2il04ptci2j
+  port: 8080
+  server: 54.37.240.40
+  type: ss
+  udp: true
+- name: 145 | 556ms | n01711
+  server: 82.38.31.190
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 146 | 558ms | n01369
+  password: ijoUwfdnkz7mX4pWdkSpmEixTZCt2TRm1JDr4BSaBAWkLxYGoXBHXadFKY5D5ZfoVTwqsx46jCmEUDnQUizJDYrM7B5anhnu
+  port: 42878
+  server: 23.230.52.119
+  type: ss
+  udp: true
+- name: 147 | 558ms | n01631
+  server: 151.241.19.29
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - type: ss
-  name: 173 | 431ms | n01192
-  server: 202.50.253.36
+  name: 148 | 559ms | n01205
+  server: 202.50.253.72
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
   udp: true
-- cipher: aes-256-gcm
-  name: 174 | 431ms | n01275
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 79.127.139.242
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: 175 | 434ms | n01273
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  port: 19999
-  server: 66.163.118.103
-  type: ss
-  udp: true
-- name: 176 | 434ms | n01641
-  server: 84.20.27.183
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 177 | 436ms | n01627
-  server: 82.38.31.181
+- name: 149 | 561ms | n01705
+  server: 82.38.31.35
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
-  password: k1dBOmOB4oqi7Ump37a1bQ
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 178 | 439ms | n01670
-  server: 193.108.119.29
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: blog.iloverussia2026.com
+- type: ss
+  name: 150 | 563ms | n01200
+  server: 202.50.253.63
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
   skip-cert-verify: false
   udp: true
-- name: 179 | 440ms | n01671
+- name: 151 | 564ms | n01698
+  server: 82.38.31.62
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  udp: true
+- cipher: aes-256-gcm
+  name: 152 | 568ms | n01342
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 185.164.175.81
+  type: ss
+  udp: true
+- name: 153 | 568ms | n01710
+  server: 5.188.181.201
+  port: 9030
+  type: ss
+  cipher: aes-256-cfb
+  password: GeregetR8cvQHzYr
+  udp: true
+- name: 154 | 568ms | n01721
+  server: 5.188.181.201
+  port: 9005
+  type: ss
+  cipher: aes-256-cfb
+  password: ZET59LF6DvCC8KVt
+  udp: true
+- cipher: aes-256-gcm
+  name: 155 | 569ms | n01484
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 202.50.253.18
+  type: ss
+  udp: true
+- name: 156 | 571ms | n01647
   server: 193.108.119.96
   port: 443
   type: trojan
@@ -1402,56 +1299,161 @@ proxies:
   sni: learn.iloverussia2026.com
   skip-cert-verify: false
   udp: true
-- cipher: aes-256-gcm
-  name: 180 | 443ms | n01274
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 157 | 571ms | n01694
+  server: 149.88.106.73
   port: 19999
-  server: 167.17.71.167
   type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 181 | 445ms | n01230
-  obfs: salamander
-  obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
-  password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
+- name: 158 | 571ms | n01718
+  server: 5.188.181.201
+  port: 9027
+  type: ss
+  cipher: aes-256-cfb
+  password: EXN3S3eQpjE7EJu8
+  udp: true
+- name: 159 | 573ms | n01645
+  server: 193.108.119.29
   port: 443
-  server: 130.49.161.70
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.iloverussia2026.com
   skip-cert-verify: false
-  sni: hy2.aspidnet.xyz
-  tls: false
-  type: hysteria2
+  udp: true
+- name: 160 | 573ms | n01725
+  server: 5.188.181.201
+  port: 9011
+  type: ss
+  cipher: aes-256-cfb
+  password: M3t2ZEQcMGRWBjRa
+  udp: true
+- name: 161 | 574ms | n01648
+  server: 193.108.119.15
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.iloverussia2026.com
+  skip-cert-verify: false
+  udp: true
+- name: 162 | 574ms | n01652
+  server: 193.108.119.193
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: resources.iloverussia2026.com
+  skip-cert-verify: false
   udp: true
 - type: ss
-  name: 182 | 448ms | n01198
-  server: 202.50.253.99
+  name: 163 | 580ms | n01204
+  server: 202.50.253.81
   port: 19999
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   cipher: aes-256-gcm
   tls: false
   skip-cert-verify: false
   udp: true
-- name: 183 | 455ms | n01620
-  server: 82.38.31.180
+- cipher: aes-256-gcm
+  name: 164 | 581ms | n01330
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 167.17.64.175
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 165 | 582ms | n01366
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 149.88.107.74
+  type: ss
+  udp: true
+- name: 166 | 582ms | n01525
+  server: 57.131.4.13
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: mx81glqbtlwuhcjo
+  udp: true
+- cipher: aes-256-gcm
+  name: 167 | 584ms | n01367
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 149.88.107.47
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 168 | 586ms | n01365
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 149.88.106.74
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 169 | 588ms | n01621
+  password: eetk7pw
+  port: 443
+  server: 54.36.174.140
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 170 | 590ms | n01362
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 51.79.228.131
+  type: ss
+  udp: true
+- type: ss
+  name: 171 | 592ms | n01202
+  server: 202.50.253.45
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 172 | 592ms | n01354
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 173 | 592ms | n01363
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 15.235.182.183
+  type: ss
+  udp: true
+- name: 174 | 592ms | n01728
+  server: 5.188.181.201
+  port: 9042
+  type: ss
+  cipher: aes-256-cfb
+  password: S7KwUu7yBy58S3Ga
+  udp: true
+- cipher: aes-256-gcm
+  name: 175 | 593ms | n01364
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 15.235.164.133
+  type: ss
+  udp: true
+- name: 176 | 595ms | n01667
+  server: 82.38.31.181
   port: 8080
   type: ss
   cipher: chacha20-ietf-poly1305
   password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 184 | 459ms | n01535
-  server: 200.102.183.50
+- name: 177 | 598ms | n01500
   port: 443
-  type: vless
-  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
+  server: 34.249.214.108
+  skip-cert-verify: true
   tls: true
-  alpn:
-  - h2
-  servername: f2hbck5x3c0g8pl7.cdn.cachefleet.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: qi8ws15c7jv5q2fa
+  type: http
   udp: true
-- name: 185 | 474ms | n00837
+- name: 178 | 602ms | n00845
   type: vless
   network: tcp
   server: 87.248.149.50
@@ -1463,343 +1465,412 @@ proxies:
   udp: true
   tfo: false
   client-fingerprint: chrome
-- name: 186 | 482ms | n01375
-  password: None
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  sub_tag: P002-260618
-  tls: true
-  type: http
+- name: 179 | 602ms | n01643
+  server: 82.38.31.180
+  port: 8080
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 187 | 484ms | n01380
-  password: None
-  port: 9443
-  server: 84.17.50.129
+- name: 180 | 604ms | n01474
+  password: 'null'
+  port: 443
+  server: 18.200.158.139
   skip-cert-verify: true
   tls: true
   type: http
+  username: 'null'
   udp: true
-- name: 188 | 487ms | n01333
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 64.176.7.205
-  sni: advanceyouremploymentskillsandcareerdevelopmenthub.com
-  type: trojan
-  udp: true
-- name: 189 | 490ms | n01328
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.147.201
-  sni: resources.connectingpeoplewithgreatjobs.com
-  type: trojan
-  udp: true
-- name: 190 | 491ms | n01504
-  server: 200.102.183.57
-  port: 80
+- name: 181 | 607ms | n01282
+  network: ws
+  port: 25555
+  server: 152.69.226.63
+  tls: false
   type: vless
-  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  ws-opts:
+    path: /
+  udp: true
+- name: 182 | 609ms | n01719
+  server: 5.188.181.201
+  port: 9003
+  type: ss
+  cipher: aes-256-cfb
+  password: JdmRK9gMEqFgs8nP
+  udp: true
+- type: ss
+  name: 183 | 610ms | n01198
+  server: 202.50.253.36
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 184 | 610ms | n01596
+  type: http
+  server: 18.200.158.139
+  port: 443
   tls: true
-  alpn:
-  - h2
-  servername: 68r2nrw6avta71yq.cdn.cachefleet.com
+  sni: 18.200.158.139
+  skip-cert-verify: true
+  udp: true
+- type: ss
+  name: 185 | 617ms | n01201
+  server: 202.50.253.54
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- cipher: aes-256-gcm
+  name: 186 | 618ms | n01331
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 167.17.64.22
+  type: ss
+  udp: true
+- type: ss
+  name: 187 | 621ms | n01203
+  server: 202.50.253.99
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 188 | 622ms | n00032
+  type: vless
+  network: tcp
+  server: base.hosamobenl.co.uk
+  port: 443
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
+  servername: base.hosamobenl.co.uk
+  tls: true
   client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: qi8ws15c7jv5q2fa
   udp: true
-- name: 191 | 505ms | n01364
-  password: None
-  port: 443
-  server: 185.164.138.156
-  skip-cert-verify: true
-  tls: true
-  type: http
+- name: 189 | 624ms | n01722
+  server: 5.188.181.201
+  port: 9019
+  type: ss
+  cipher: aes-256-cfb
+  password: GA9KzeEgvfxNrgmM
   udp: true
-- name: 192 | 507ms | n01479
-  password: None
-  port: 9002
-  server: 84.17.47.149
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-256-gcm
+  name: 190 | 625ms | n01326
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 23.162.152.22
+  type: ss
   udp: true
-- name: 193 | 514ms | n01476
-  password: 'null'
-  port: 443
-  server: 103.97.88.154
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-256-gcm
+  name: 191 | 634ms | n01329
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 172.99.189.142
+  type: ss
   udp: true
-  username: 'null'
-- name: 194 | 515ms | n01390
-  port: 19362
-  server: 51.159.225.197
-  skip-cert-verify: true
-  tls: true
-  type: http
+- type: ss
+  name: 192 | 643ms | n01199
+  server: 202.50.253.90
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
   udp: true
-- name: 195 | 527ms | n01472
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
+- cipher: aes-128-gcm
+  name: 193 | 647ms | n01357
+  password: 8722de56b6c0b3f6a4d01cf91c07e6aa
+  port: 13108
+  server: 38.60.223.125
+  type: ss
   udp: true
-- name: 196 | 530ms | n01425
-  password: None
-  port: 9002
-  server: 84.17.47.147
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
+- name: 194 | 649ms | n01726
+  server: 5.188.181.201
+  port: 9054
+  type: ss
+  cipher: aes-256-cfb
+  password: VcFuyXvND2yQWSFY
   udp: true
-- name: 197 | 531ms | n00066
+- type: ss
+  name: 195 | 657ms | n01197
+  server: 202.50.253.27
+  port: 19999
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  cipher: aes-256-gcm
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 196 | 662ms | n00538
   type: vless
-  network: grpc
-  server: 138.124.242.46
-  port: 8443
-  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
-  servername: pl2-edge.gacvpn.site
-  tls: true
+  network: ws
+  server: 152.228.162.19
+  port: 80
+  uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
+  skip-cert-verify: false
+  tls: false
+  encryption: none
+  ws-opts:
+    headers:
+      Host: akamaized.net
+    path: /vless/
   udp: true
-  client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: connect-pl
-- name: 198 | 532ms | n01471
-  password: 'null'
-  port: 23856
-  server: 51.159.225.196
-  skip-cert-verify: true
-  tls: true
-  type: http
+- name: 197 | 681ms | n00016
+  type: vless
+  network: ws
+  server: 45.144.234.157
+  port: 14430
+  uuid: 59b0d30e-9b29-4fda-a35c-b2901ec32db7
+  tls: false
+  ws-opts:
+    headers:
+      Host: 45.144.234.157
+    path: /vless
   udp: true
-  username: 'null'
-- name: 199 | 536ms | n01591
-  type: http
-  server: 51.159.225.196
-  port: 23856
-  username: 'null'
-  password: None
-  tls: true
-  sni: 51.159.225.196
-  skip-cert-verify: true
-  udp: true
-- name: 200 | 539ms | n01409
+- name: 198 | 693ms | n00980
+  type: vless
+  network: tcp
+  server: 179.43.187.67
   port: 443
-  server: 149.102.245.65
-  skip-cert-verify: true
+  uuid: 9dd38d60-e683-47c6-bd53-d71bdfee78f3
+  servername: portal.mavexa.ir
+  skip-cert-verify: false
   tls: true
-  type: http
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+- client-fingerprint: chrome
+  encryption: none
+  name: 199 | 697ms | n01260
+  network: ws
+  port: 50818
+  server: 34.39.80.57
+  servername: yingguo.rymaker.cn
+  tls: true
+  type: vless
+  uuid: 408c814e-f70a-4d16-b3b3-8182bb70211d
+  ws-opts:
+    path: /GunService
+  udp: true
+- name: 200 | 700ms | n00021
+  type: vless
+  network: ws
+  server: ov-france1.09vpn.com
+  port: 80
+  uuid: f5c47e9c-914a-4a91-a81e-a5a77bc10fc1
+  servername: ov-france1.09vpn.com
+  tls: false
+  ws-opts:
+    headers:
+      Host: ov-france1.09vpn.com
+    path: /vless/
   udp: true
 proxy-groups:
 - name: AUTO-FASTEST
   type: url-test
   proxies:
-  - 001 | 18ms | n01663
-  - 002 | 34ms | n01677
-  - 003 | 56ms | n01582
-  - 004 | 62ms | n01659
-  - 005 | 63ms | n01642
-  - 006 | 63ms | n01681
-  - 007 | 69ms | n01379
-  - 008 | 70ms | n01655
-  - 009 | 71ms | n01357
-  - 010 | 73ms | n01656
-  - 011 | 74ms | n01649
-  - 012 | 75ms | n01651
-  - 013 | 76ms | n01609
-  - 014 | 78ms | n01665
-  - 015 | 80ms | n01465
-  - 016 | 81ms | n01556
-  - 017 | 87ms | n01355
-  - 018 | 89ms | n01716
-  - 019 | 90ms | n01672
-  - 020 | 91ms | n01617
-  - 021 | 96ms | n01490
-  - 022 | 97ms | n01608
-  - 023 | 97ms | n01611
-  - 024 | 98ms | n01675
-  - 025 | 106ms | n01644
-  - 026 | 107ms | n01371
-  - 027 | 111ms | n01407
-  - 028 | 111ms | n01420
-  - 029 | 113ms | n01577
-  - 030 | 113ms | n01607
-  - 031 | 118ms | n01654
-  - 032 | 119ms | n01610
-  - 033 | 120ms | n00006
-  - 034 | 122ms | n01383
-  - 035 | 124ms | n01652
-  - 036 | 130ms | n01263
-  - 037 | 130ms | n01415
-  - 038 | 131ms | n01416
-  - 039 | 139ms | n01361
-  - 040 | 141ms | n01430
-  - 041 | 148ms | n01673
-  - 042 | 153ms | n01378
-  - 043 | 154ms | n01613
-  - 044 | 157ms | n01612
-  - 045 | 158ms | n01417
-  - 046 | 161ms | n01678
-  - 047 | 163ms | n01660
-  - 048 | 180ms | n01296
-  - 049 | 190ms | n01325
-  - 050 | 203ms | n00921
-  - 051 | 210ms | n01633
-  - 052 | 212ms | n01625
-  - 053 | 220ms | n01180
-  - 054 | 222ms | n01658
-  - 055 | 222ms | n01666
-  - 056 | 222ms | n01668
-  - 057 | 223ms | n01662
-  - 058 | 223ms | n01676
-  - 059 | 226ms | n01669
-  - 060 | 227ms | n01664
-  - 061 | 231ms | n01657
-  - 062 | 238ms | n01661
-  - 063 | 246ms | n01412
-  - 064 | 246ms | n01413
-  - 065 | 247ms | n01358
-  - 066 | 247ms | n01360
-  - 067 | 247ms | n01426
-  - 068 | 247ms | n01647
-  - 069 | 252ms | n01401
-  - 070 | 254ms | n01405
-  - 071 | 256ms | n01363
-  - 072 | 259ms | n01353
-  - 073 | 272ms | n01329
-  - 074 | 276ms | n00433
-  - 075 | 278ms | n01557
-  - 076 | 297ms | n01331
-  - 077 | 303ms | n01710
-  - 078 | 305ms | n01707
-  - 079 | 307ms | n01694
-  - 080 | 309ms | n01711
-  - 081 | 312ms | n01297
-  - 082 | 316ms | n01272
-  - 083 | 318ms | n01287
-  - 084 | 320ms | n01286
-  - 085 | 320ms | n01704
-  - 086 | 320ms | n01708
-  - 087 | 323ms | n01717
-  - 088 | 325ms | n01615
-  - 089 | 327ms | n01635
-  - 090 | 327ms | n01682
-  - 091 | 329ms | n01290
-  - 092 | 329ms | n01699
-  - 093 | 332ms | n01270
-  - 094 | 332ms | n01283
-  - 095 | 333ms | n01271
-  - 096 | 333ms | n01623
-  - 097 | 334ms | n01621
-  - 098 | 334ms | n01689
-  - 099 | 334ms | n01714
-  - 100 | 335ms | n01690
-  - 101 | 335ms | n01701
-  - 102 | 337ms | n01481
-  - 103 | 337ms | n01698
-  - 104 | 338ms | n01692
-  - 105 | 339ms | n01505
-  - 106 | 339ms | n01614
-  - 107 | 340ms | n01638
-  - 108 | 341ms | n01624
-  - 109 | 341ms | n01626
-  - 110 | 342ms | n01282
-  - 111 | 342ms | n01570
-  - 112 | 342ms | n01650
-  - 113 | 343ms | n01705
-  - 114 | 344ms | n01278
-  - 115 | 344ms | n01281
-  - 116 | 344ms | n01636
-  - 117 | 344ms | n01643
-  - 118 | 345ms | n01628
-  - 119 | 345ms | n01687
-  - 120 | 346ms | n01269
-  - 121 | 346ms | n01619
-  - 122 | 348ms | n01279
-  - 123 | 348ms | n01653
-  - 124 | 349ms | n01631
-  - 125 | 349ms | n01648
-  - 126 | 349ms | n01684
-  - 127 | 349ms | n01703
-  - 128 | 350ms | n01616
-  - 129 | 351ms | n01622
-  - 130 | 353ms | n01683
-  - 131 | 355ms | n01688
-  - 132 | 355ms | n01709
-  - 133 | 356ms | n01632
-  - 134 | 356ms | n01685
-  - 135 | 357ms | n01640
-  - 136 | 357ms | n01706
-  - 137 | 359ms | n01618
-  - 138 | 360ms | n01686
-  - 139 | 361ms | n01691
-  - 140 | 363ms | n01266
-  - 141 | 364ms | n01280
-  - 142 | 366ms | n01533
-  - 143 | 366ms | n01695
-  - 144 | 370ms | n01196
-  - 145 | 370ms | n01268
-  - 146 | 371ms | n01194
-  - 147 | 371ms | n01700
-  - 148 | 376ms | n01267
-  - 149 | 377ms | n01200
-  - 150 | 378ms | n01288
-  - 151 | 378ms | n01293
-  - 152 | 379ms | n01195
-  - 153 | 379ms | n01629
-  - 154 | 380ms | n01191
-  - 155 | 382ms | n01199
-  - 156 | 384ms | n01634
-  - 157 | 385ms | n01197
-  - 158 | 385ms | n01309
-  - 159 | 386ms | n01193
-  - 160 | 393ms | n01630
-  - 161 | 394ms | n01257
-  - 162 | 395ms | n01308
-  - 163 | 403ms | n01240
-  - 164 | 403ms | n01256
-  - 165 | 407ms | n01679
-  - 166 | 409ms | n00710
-  - 167 | 410ms | n01637
-  - 168 | 418ms | n01674
-  - 169 | 421ms | n01307
-  - 170 | 425ms | n00019
-  - 171 | 425ms | n01667
-  - 172 | 428ms | n01646
-  - 173 | 431ms | n01192
-  - 174 | 431ms | n01275
-  - 175 | 434ms | n01273
-  - 176 | 434ms | n01641
-  - 177 | 436ms | n01627
-  - 178 | 439ms | n01670
-  - 179 | 440ms | n01671
-  - 180 | 443ms | n01274
-  - 181 | 445ms | n01230
-  - 182 | 448ms | n01198
-  - 183 | 455ms | n01620
-  - 184 | 459ms | n01535
-  - 185 | 474ms | n00837
-  - 186 | 482ms | n01375
-  - 187 | 484ms | n01380
-  - 188 | 487ms | n01333
-  - 189 | 490ms | n01328
-  - 190 | 491ms | n01504
-  - 191 | 505ms | n01364
-  - 192 | 507ms | n01479
-  - 193 | 514ms | n01476
-  - 194 | 515ms | n01390
-  - 195 | 527ms | n01472
-  - 196 | 530ms | n01425
-  - 197 | 531ms | n00066
-  - 198 | 532ms | n01471
-  - 199 | 536ms | n01591
-  - 200 | 539ms | n01409
+  - 001 | 55ms | n01660
+  - 002 | 69ms | n01400
+  - 003 | 87ms | n01687
+  - 004 | 88ms | n01632
+  - 005 | 108ms | n01459
+  - 006 | 115ms | n01671
+  - 007 | 117ms | n01461
+  - 008 | 118ms | n01589
+  - 009 | 125ms | n00973
+  - 010 | 129ms | n01609
+  - 011 | 135ms | n01691
+  - 012 | 149ms | n01464
+  - 013 | 149ms | n01634
+  - 014 | 150ms | n01434
+  - 015 | 150ms | n01468
+  - 016 | 151ms | n01640
+  - 017 | 152ms | n01450
+  - 018 | 152ms | n01454
+  - 019 | 152ms | n01666
+  - 020 | 153ms | n01430
+  - 021 | 154ms | n01439
+  - 022 | 155ms | n01453
+  - 023 | 161ms | n01455
+  - 024 | 173ms | n01456
+  - 025 | 173ms | n01675
+  - 026 | 174ms | n01635
+  - 027 | 174ms | n01637
+  - 028 | 175ms | n01661
+  - 029 | 175ms | n01679
+  - 030 | 177ms | n01670
+  - 031 | 186ms | n01458
+  - 032 | 192ms | n01460
+  - 033 | 195ms | n01682
+  - 034 | 196ms | n01690
+  - 035 | 197ms | n01681
+  - 036 | 197ms | n01684
+  - 037 | 205ms | n01673
+  - 038 | 210ms | n01672
+  - 039 | 210ms | n01677
+  - 040 | 210ms | n01683
+  - 041 | 210ms | n01685
+  - 042 | 210ms | n01697
+  - 043 | 215ms | n01680
+  - 044 | 215ms | n01689
+  - 045 | 230ms | n01465
+  - 046 | 231ms | n01457
+  - 047 | 233ms | n01462
+  - 048 | 235ms | n01692
+  - 049 | 246ms | n01463
+  - 050 | 249ms | n01427
+  - 051 | 253ms | n01379
+  - 052 | 254ms | n01377
+  - 053 | 255ms | n01715
+  - 054 | 256ms | n01627
+  - 055 | 256ms | n01629
+  - 056 | 257ms | n01678
+  - 057 | 258ms | n01625
+  - 058 | 261ms | n01436
+  - 059 | 264ms | n01730
+  - 060 | 269ms | n01628
+  - 061 | 269ms | n01659
+  - 062 | 270ms | n01669
+  - 063 | 273ms | n01626
+  - 064 | 281ms | n01588
+  - 065 | 294ms | n01539
+  - 066 | 317ms | n00028
+  - 067 | 321ms | n01473
+  - 068 | 325ms | n00417
+  - 069 | 328ms | n01703
+  - 070 | 335ms | n01403
+  - 071 | 365ms | n01579
+  - 072 | 372ms | n01630
+  - 073 | 377ms | n01310
+  - 074 | 387ms | n01412
+  - 075 | 402ms | n01717
+  - 076 | 415ms | n01695
+  - 077 | 428ms | n01368
+  - 078 | 430ms | n01319
+  - 079 | 433ms | n01318
+  - 080 | 435ms | n01320
+  - 081 | 441ms | n01644
+  - 082 | 445ms | n01336
+  - 083 | 445ms | n01337
+  - 084 | 446ms | n01693
+  - 085 | 447ms | n01335
+  - 086 | 456ms | n01546
+  - 087 | 457ms | n01653
+  - 088 | 460ms | n01334
+  - 089 | 465ms | n01349
+  - 090 | 471ms | n01469
+  - 091 | 488ms | n01557
+  - 092 | 491ms | n01304
+  - 093 | 495ms | n01736
+  - 094 | 506ms | n01674
+  - 095 | 509ms | n01323
+  - 096 | 511ms | n01646
+  - 097 | 513ms | n01360
+  - 098 | 513ms | n01616
+  - 099 | 515ms | n01641
+  - 100 | 516ms | n01316
+  - 101 | 517ms | n01654
+  - 102 | 518ms | n01314
+  - 103 | 519ms | n01696
+  - 104 | 521ms | n01471
+  - 105 | 522ms | n01254
+  - 106 | 523ms | n01315
+  - 107 | 523ms | n01636
+  - 108 | 523ms | n01734
+  - 109 | 524ms | n01655
+  - 110 | 524ms | n01656
+  - 111 | 524ms | n01701
+  - 112 | 524ms | n01702
+  - 113 | 527ms | n01686
+  - 114 | 527ms | n01699
+  - 115 | 527ms | n01706
+  - 116 | 528ms | n01639
+  - 117 | 528ms | n01642
+  - 118 | 529ms | n01650
+  - 119 | 529ms | n01658
+  - 120 | 531ms | n01676
+  - 121 | 534ms | n01708
+  - 122 | 535ms | n01731
+  - 123 | 537ms | n01305
+  - 124 | 539ms | n01328
+  - 125 | 539ms | n01633
+  - 126 | 539ms | n01713
+  - 127 | 543ms | n01327
+  - 128 | 544ms | n01321
+  - 129 | 545ms | n01341
+  - 130 | 545ms | n01638
+  - 131 | 546ms | n01668
+  - 132 | 546ms | n01704
+  - 133 | 547ms | n01657
+  - 134 | 547ms | n01700
+  - 135 | 547ms | n01707
+  - 136 | 548ms | n00706
+  - 137 | 548ms | n01649
+  - 138 | 550ms | n00020
+  - 139 | 551ms | n01665
+  - 140 | 552ms | n01322
+  - 141 | 552ms | n01664
+  - 142 | 553ms | n01732
+  - 143 | 555ms | n01449
+  - 144 | 556ms | n01332
+  - 145 | 556ms | n01711
+  - 146 | 558ms | n01369
+  - 147 | 558ms | n01631
+  - 148 | 559ms | n01205
+  - 149 | 561ms | n01705
+  - 150 | 563ms | n01200
+  - 151 | 564ms | n01698
+  - 152 | 568ms | n01342
+  - 153 | 568ms | n01710
+  - 154 | 568ms | n01721
+  - 155 | 569ms | n01484
+  - 156 | 571ms | n01647
+  - 157 | 571ms | n01694
+  - 158 | 571ms | n01718
+  - 159 | 573ms | n01645
+  - 160 | 573ms | n01725
+  - 161 | 574ms | n01648
+  - 162 | 574ms | n01652
+  - 163 | 580ms | n01204
+  - 164 | 581ms | n01330
+  - 165 | 582ms | n01366
+  - 166 | 582ms | n01525
+  - 167 | 584ms | n01367
+  - 168 | 586ms | n01365
+  - 169 | 588ms | n01621
+  - 170 | 590ms | n01362
+  - 171 | 592ms | n01202
+  - 172 | 592ms | n01354
+  - 173 | 592ms | n01363
+  - 174 | 592ms | n01728
+  - 175 | 593ms | n01364
+  - 176 | 595ms | n01667
+  - 177 | 598ms | n01500
+  - 178 | 602ms | n00845
+  - 179 | 602ms | n01643
+  - 180 | 604ms | n01474
+  - 181 | 607ms | n01282
+  - 182 | 609ms | n01719
+  - 183 | 610ms | n01198
+  - 184 | 610ms | n01596
+  - 185 | 617ms | n01201
+  - 186 | 618ms | n01331
+  - 187 | 621ms | n01203
+  - 188 | 622ms | n00032
+  - 189 | 624ms | n01722
+  - 190 | 625ms | n01326
+  - 191 | 634ms | n01329
+  - 192 | 643ms | n01199
+  - 193 | 647ms | n01357
+  - 194 | 649ms | n01726
+  - 195 | 657ms | n01197
+  - 196 | 662ms | n00538
+  - 197 | 681ms | n00016
+  - 198 | 693ms | n00980
+  - 199 | 697ms | n01260
+  - 200 | 700ms | n00021
   url: https://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
@@ -1809,205 +1880,205 @@ proxy-groups:
   proxies:
   - AUTO-FASTEST
   - DIRECT
-  - 001 | 18ms | n01663
-  - 002 | 34ms | n01677
-  - 003 | 56ms | n01582
-  - 004 | 62ms | n01659
-  - 005 | 63ms | n01642
-  - 006 | 63ms | n01681
-  - 007 | 69ms | n01379
-  - 008 | 70ms | n01655
-  - 009 | 71ms | n01357
-  - 010 | 73ms | n01656
-  - 011 | 74ms | n01649
-  - 012 | 75ms | n01651
-  - 013 | 76ms | n01609
-  - 014 | 78ms | n01665
-  - 015 | 80ms | n01465
-  - 016 | 81ms | n01556
-  - 017 | 87ms | n01355
-  - 018 | 89ms | n01716
-  - 019 | 90ms | n01672
-  - 020 | 91ms | n01617
-  - 021 | 96ms | n01490
-  - 022 | 97ms | n01608
-  - 023 | 97ms | n01611
-  - 024 | 98ms | n01675
-  - 025 | 106ms | n01644
-  - 026 | 107ms | n01371
-  - 027 | 111ms | n01407
-  - 028 | 111ms | n01420
-  - 029 | 113ms | n01577
-  - 030 | 113ms | n01607
-  - 031 | 118ms | n01654
-  - 032 | 119ms | n01610
-  - 033 | 120ms | n00006
-  - 034 | 122ms | n01383
-  - 035 | 124ms | n01652
-  - 036 | 130ms | n01263
-  - 037 | 130ms | n01415
-  - 038 | 131ms | n01416
-  - 039 | 139ms | n01361
-  - 040 | 141ms | n01430
-  - 041 | 148ms | n01673
-  - 042 | 153ms | n01378
-  - 043 | 154ms | n01613
-  - 044 | 157ms | n01612
-  - 045 | 158ms | n01417
-  - 046 | 161ms | n01678
-  - 047 | 163ms | n01660
-  - 048 | 180ms | n01296
-  - 049 | 190ms | n01325
-  - 050 | 203ms | n00921
-  - 051 | 210ms | n01633
-  - 052 | 212ms | n01625
-  - 053 | 220ms | n01180
-  - 054 | 222ms | n01658
-  - 055 | 222ms | n01666
-  - 056 | 222ms | n01668
-  - 057 | 223ms | n01662
-  - 058 | 223ms | n01676
-  - 059 | 226ms | n01669
-  - 060 | 227ms | n01664
-  - 061 | 231ms | n01657
-  - 062 | 238ms | n01661
-  - 063 | 246ms | n01412
-  - 064 | 246ms | n01413
-  - 065 | 247ms | n01358
-  - 066 | 247ms | n01360
-  - 067 | 247ms | n01426
-  - 068 | 247ms | n01647
-  - 069 | 252ms | n01401
-  - 070 | 254ms | n01405
-  - 071 | 256ms | n01363
-  - 072 | 259ms | n01353
-  - 073 | 272ms | n01329
-  - 074 | 276ms | n00433
-  - 075 | 278ms | n01557
-  - 076 | 297ms | n01331
-  - 077 | 303ms | n01710
-  - 078 | 305ms | n01707
-  - 079 | 307ms | n01694
-  - 080 | 309ms | n01711
-  - 081 | 312ms | n01297
-  - 082 | 316ms | n01272
-  - 083 | 318ms | n01287
-  - 084 | 320ms | n01286
-  - 085 | 320ms | n01704
-  - 086 | 320ms | n01708
-  - 087 | 323ms | n01717
-  - 088 | 325ms | n01615
-  - 089 | 327ms | n01635
-  - 090 | 327ms | n01682
-  - 091 | 329ms | n01290
-  - 092 | 329ms | n01699
-  - 093 | 332ms | n01270
-  - 094 | 332ms | n01283
-  - 095 | 333ms | n01271
-  - 096 | 333ms | n01623
-  - 097 | 334ms | n01621
-  - 098 | 334ms | n01689
-  - 099 | 334ms | n01714
-  - 100 | 335ms | n01690
-  - 101 | 335ms | n01701
-  - 102 | 337ms | n01481
-  - 103 | 337ms | n01698
-  - 104 | 338ms | n01692
-  - 105 | 339ms | n01505
-  - 106 | 339ms | n01614
-  - 107 | 340ms | n01638
-  - 108 | 341ms | n01624
-  - 109 | 341ms | n01626
-  - 110 | 342ms | n01282
-  - 111 | 342ms | n01570
-  - 112 | 342ms | n01650
-  - 113 | 343ms | n01705
-  - 114 | 344ms | n01278
-  - 115 | 344ms | n01281
-  - 116 | 344ms | n01636
-  - 117 | 344ms | n01643
-  - 118 | 345ms | n01628
-  - 119 | 345ms | n01687
-  - 120 | 346ms | n01269
-  - 121 | 346ms | n01619
-  - 122 | 348ms | n01279
-  - 123 | 348ms | n01653
-  - 124 | 349ms | n01631
-  - 125 | 349ms | n01648
-  - 126 | 349ms | n01684
-  - 127 | 349ms | n01703
-  - 128 | 350ms | n01616
-  - 129 | 351ms | n01622
-  - 130 | 353ms | n01683
-  - 131 | 355ms | n01688
-  - 132 | 355ms | n01709
-  - 133 | 356ms | n01632
-  - 134 | 356ms | n01685
-  - 135 | 357ms | n01640
-  - 136 | 357ms | n01706
-  - 137 | 359ms | n01618
-  - 138 | 360ms | n01686
-  - 139 | 361ms | n01691
-  - 140 | 363ms | n01266
-  - 141 | 364ms | n01280
-  - 142 | 366ms | n01533
-  - 143 | 366ms | n01695
-  - 144 | 370ms | n01196
-  - 145 | 370ms | n01268
-  - 146 | 371ms | n01194
-  - 147 | 371ms | n01700
-  - 148 | 376ms | n01267
-  - 149 | 377ms | n01200
-  - 150 | 378ms | n01288
-  - 151 | 378ms | n01293
-  - 152 | 379ms | n01195
-  - 153 | 379ms | n01629
-  - 154 | 380ms | n01191
-  - 155 | 382ms | n01199
-  - 156 | 384ms | n01634
-  - 157 | 385ms | n01197
-  - 158 | 385ms | n01309
-  - 159 | 386ms | n01193
-  - 160 | 393ms | n01630
-  - 161 | 394ms | n01257
-  - 162 | 395ms | n01308
-  - 163 | 403ms | n01240
-  - 164 | 403ms | n01256
-  - 165 | 407ms | n01679
-  - 166 | 409ms | n00710
-  - 167 | 410ms | n01637
-  - 168 | 418ms | n01674
-  - 169 | 421ms | n01307
-  - 170 | 425ms | n00019
-  - 171 | 425ms | n01667
-  - 172 | 428ms | n01646
-  - 173 | 431ms | n01192
-  - 174 | 431ms | n01275
-  - 175 | 434ms | n01273
-  - 176 | 434ms | n01641
-  - 177 | 436ms | n01627
-  - 178 | 439ms | n01670
-  - 179 | 440ms | n01671
-  - 180 | 443ms | n01274
-  - 181 | 445ms | n01230
-  - 182 | 448ms | n01198
-  - 183 | 455ms | n01620
-  - 184 | 459ms | n01535
-  - 185 | 474ms | n00837
-  - 186 | 482ms | n01375
-  - 187 | 484ms | n01380
-  - 188 | 487ms | n01333
-  - 189 | 490ms | n01328
-  - 190 | 491ms | n01504
-  - 191 | 505ms | n01364
-  - 192 | 507ms | n01479
-  - 193 | 514ms | n01476
-  - 194 | 515ms | n01390
-  - 195 | 527ms | n01472
-  - 196 | 530ms | n01425
-  - 197 | 531ms | n00066
-  - 198 | 532ms | n01471
-  - 199 | 536ms | n01591
-  - 200 | 539ms | n01409
+  - 001 | 55ms | n01660
+  - 002 | 69ms | n01400
+  - 003 | 87ms | n01687
+  - 004 | 88ms | n01632
+  - 005 | 108ms | n01459
+  - 006 | 115ms | n01671
+  - 007 | 117ms | n01461
+  - 008 | 118ms | n01589
+  - 009 | 125ms | n00973
+  - 010 | 129ms | n01609
+  - 011 | 135ms | n01691
+  - 012 | 149ms | n01464
+  - 013 | 149ms | n01634
+  - 014 | 150ms | n01434
+  - 015 | 150ms | n01468
+  - 016 | 151ms | n01640
+  - 017 | 152ms | n01450
+  - 018 | 152ms | n01454
+  - 019 | 152ms | n01666
+  - 020 | 153ms | n01430
+  - 021 | 154ms | n01439
+  - 022 | 155ms | n01453
+  - 023 | 161ms | n01455
+  - 024 | 173ms | n01456
+  - 025 | 173ms | n01675
+  - 026 | 174ms | n01635
+  - 027 | 174ms | n01637
+  - 028 | 175ms | n01661
+  - 029 | 175ms | n01679
+  - 030 | 177ms | n01670
+  - 031 | 186ms | n01458
+  - 032 | 192ms | n01460
+  - 033 | 195ms | n01682
+  - 034 | 196ms | n01690
+  - 035 | 197ms | n01681
+  - 036 | 197ms | n01684
+  - 037 | 205ms | n01673
+  - 038 | 210ms | n01672
+  - 039 | 210ms | n01677
+  - 040 | 210ms | n01683
+  - 041 | 210ms | n01685
+  - 042 | 210ms | n01697
+  - 043 | 215ms | n01680
+  - 044 | 215ms | n01689
+  - 045 | 230ms | n01465
+  - 046 | 231ms | n01457
+  - 047 | 233ms | n01462
+  - 048 | 235ms | n01692
+  - 049 | 246ms | n01463
+  - 050 | 249ms | n01427
+  - 051 | 253ms | n01379
+  - 052 | 254ms | n01377
+  - 053 | 255ms | n01715
+  - 054 | 256ms | n01627
+  - 055 | 256ms | n01629
+  - 056 | 257ms | n01678
+  - 057 | 258ms | n01625
+  - 058 | 261ms | n01436
+  - 059 | 264ms | n01730
+  - 060 | 269ms | n01628
+  - 061 | 269ms | n01659
+  - 062 | 270ms | n01669
+  - 063 | 273ms | n01626
+  - 064 | 281ms | n01588
+  - 065 | 294ms | n01539
+  - 066 | 317ms | n00028
+  - 067 | 321ms | n01473
+  - 068 | 325ms | n00417
+  - 069 | 328ms | n01703
+  - 070 | 335ms | n01403
+  - 071 | 365ms | n01579
+  - 072 | 372ms | n01630
+  - 073 | 377ms | n01310
+  - 074 | 387ms | n01412
+  - 075 | 402ms | n01717
+  - 076 | 415ms | n01695
+  - 077 | 428ms | n01368
+  - 078 | 430ms | n01319
+  - 079 | 433ms | n01318
+  - 080 | 435ms | n01320
+  - 081 | 441ms | n01644
+  - 082 | 445ms | n01336
+  - 083 | 445ms | n01337
+  - 084 | 446ms | n01693
+  - 085 | 447ms | n01335
+  - 086 | 456ms | n01546
+  - 087 | 457ms | n01653
+  - 088 | 460ms | n01334
+  - 089 | 465ms | n01349
+  - 090 | 471ms | n01469
+  - 091 | 488ms | n01557
+  - 092 | 491ms | n01304
+  - 093 | 495ms | n01736
+  - 094 | 506ms | n01674
+  - 095 | 509ms | n01323
+  - 096 | 511ms | n01646
+  - 097 | 513ms | n01360
+  - 098 | 513ms | n01616
+  - 099 | 515ms | n01641
+  - 100 | 516ms | n01316
+  - 101 | 517ms | n01654
+  - 102 | 518ms | n01314
+  - 103 | 519ms | n01696
+  - 104 | 521ms | n01471
+  - 105 | 522ms | n01254
+  - 106 | 523ms | n01315
+  - 107 | 523ms | n01636
+  - 108 | 523ms | n01734
+  - 109 | 524ms | n01655
+  - 110 | 524ms | n01656
+  - 111 | 524ms | n01701
+  - 112 | 524ms | n01702
+  - 113 | 527ms | n01686
+  - 114 | 527ms | n01699
+  - 115 | 527ms | n01706
+  - 116 | 528ms | n01639
+  - 117 | 528ms | n01642
+  - 118 | 529ms | n01650
+  - 119 | 529ms | n01658
+  - 120 | 531ms | n01676
+  - 121 | 534ms | n01708
+  - 122 | 535ms | n01731
+  - 123 | 537ms | n01305
+  - 124 | 539ms | n01328
+  - 125 | 539ms | n01633
+  - 126 | 539ms | n01713
+  - 127 | 543ms | n01327
+  - 128 | 544ms | n01321
+  - 129 | 545ms | n01341
+  - 130 | 545ms | n01638
+  - 131 | 546ms | n01668
+  - 132 | 546ms | n01704
+  - 133 | 547ms | n01657
+  - 134 | 547ms | n01700
+  - 135 | 547ms | n01707
+  - 136 | 548ms | n00706
+  - 137 | 548ms | n01649
+  - 138 | 550ms | n00020
+  - 139 | 551ms | n01665
+  - 140 | 552ms | n01322
+  - 141 | 552ms | n01664
+  - 142 | 553ms | n01732
+  - 143 | 555ms | n01449
+  - 144 | 556ms | n01332
+  - 145 | 556ms | n01711
+  - 146 | 558ms | n01369
+  - 147 | 558ms | n01631
+  - 148 | 559ms | n01205
+  - 149 | 561ms | n01705
+  - 150 | 563ms | n01200
+  - 151 | 564ms | n01698
+  - 152 | 568ms | n01342
+  - 153 | 568ms | n01710
+  - 154 | 568ms | n01721
+  - 155 | 569ms | n01484
+  - 156 | 571ms | n01647
+  - 157 | 571ms | n01694
+  - 158 | 571ms | n01718
+  - 159 | 573ms | n01645
+  - 160 | 573ms | n01725
+  - 161 | 574ms | n01648
+  - 162 | 574ms | n01652
+  - 163 | 580ms | n01204
+  - 164 | 581ms | n01330
+  - 165 | 582ms | n01366
+  - 166 | 582ms | n01525
+  - 167 | 584ms | n01367
+  - 168 | 586ms | n01365
+  - 169 | 588ms | n01621
+  - 170 | 590ms | n01362
+  - 171 | 592ms | n01202
+  - 172 | 592ms | n01354
+  - 173 | 592ms | n01363
+  - 174 | 592ms | n01728
+  - 175 | 593ms | n01364
+  - 176 | 595ms | n01667
+  - 177 | 598ms | n01500
+  - 178 | 602ms | n00845
+  - 179 | 602ms | n01643
+  - 180 | 604ms | n01474
+  - 181 | 607ms | n01282
+  - 182 | 609ms | n01719
+  - 183 | 610ms | n01198
+  - 184 | 610ms | n01596
+  - 185 | 617ms | n01201
+  - 186 | 618ms | n01331
+  - 187 | 621ms | n01203
+  - 188 | 622ms | n00032
+  - 189 | 624ms | n01722
+  - 190 | 625ms | n01326
+  - 191 | 634ms | n01329
+  - 192 | 643ms | n01199
+  - 193 | 647ms | n01357
+  - 194 | 649ms | n01726
+  - 195 | 657ms | n01197
+  - 196 | 662ms | n00538
+  - 197 | 681ms | n00016
+  - 198 | 693ms | n00980
+  - 199 | 697ms | n01260
+  - 200 | 700ms | n00021
 rules:
 - MATCH,PROXY
